@@ -9,7 +9,6 @@ This project implements a simple string calculator that can handle comma-separat
    ```bash
    git clone https://github.com/Rahul-04/string_calculator_project.git
 
-
    cd string_calculator_project
    ```
 
@@ -17,15 +16,13 @@ This project implements a simple string calculator that can handle comma-separat
 
 Explain how to use your application, including command-line instructions and examples.
 
-````markdown
+```markdown
 ## Usage
 
 To run the calculator:
 
-```bash
 python string_calculator/run_calculator.py "1,2,3"
 ```
-````
 
 ## Running Tests
 
@@ -37,7 +34,7 @@ To run the unit tests for this project, follow these steps:
    cd string_calculator_project
    ```
 
-   To run the calculator:
+   To run the test calculator:
 
    ```bash
    python -m unittest tests/test_calculator.py
